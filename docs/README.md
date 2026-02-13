@@ -30,6 +30,23 @@ Explore our comprehensive process documentation to learn more about each aspect 
 - **[Risks and Communication](octoacme-risks-and-communication.md)** - Managing risk registers, stakeholder communication strategies, and escalation paths
 - **[Roles and Personas](octoacme-roles-and-personas.md)** - Detailed descriptions of team roles, responsibilities, goals, and typical communication patterns
 
+### Checklist Templates
+OctoAcme provides standardized checklist templates to ensure consistency and completeness across projects. These templates are designed to be actionable and role-responsive:
+
+- **[Project Kickoff Checklist](templates/project-kickoff-checklist.md)** - Comprehensive checklist for conducting effective project kickoff meetings, covering pre-kickoff preparation, meeting activities, post-kickoff actions, and stakeholder alignment
+- **[Stakeholder Communication Planning Checklist](templates/stakeholder-communication-checklist.md)** - Structured approach to developing stakeholder communication plans, including stakeholder identification, communication requirements, channels, schedules, and feedback mechanisms
+- **[Release Readiness Checklist](templates/release-readiness-checklist.md)** - Thorough pre-deployment validation covering code readiness, testing, documentation, deployment preparation, environment readiness, rollback planning, and go/no-go decision criteria
+- **[Risk Review and Escalation Protocol Checklist](templates/risk-review-escalation-checklist.md)** - Detailed framework for identifying, assessing, mitigating, and escalating risks, including escalation criteria and communication protocols for all levels
+
+### When to Use Each Template
+
+| Template | Project Phase | Primary Users | Frequency |
+|----------|--------------|---------------|-----------|
+| Project Kickoff Checklist | Planning | Project Manager, all team members | Once per project |
+| Stakeholder Communication Planning | Initiation/Planning | Project Manager, Product Manager | Once per project, review quarterly |
+| Release Readiness Checklist | Release | Release Manager, DevOps Engineer, QA Lead | Before each release |
+| Risk Review and Escalation Protocol | All phases | Project Manager, team members | Weekly reviews, escalate as needed |
+
 ---
 
 ## Getting Started
@@ -39,8 +56,25 @@ If you're new to OctoAcme or starting a new project:
 1. Start with the **[Project Management Overview](octoacme-project-management-overview.md)** to understand our core principles and approach
 2. Review **[Roles and Personas](octoacme-roles-and-personas.md)** to understand team structure and responsibilities
 3. When ready to start a project, follow the **[Project Initiation](octoacme-project-initiation.md)** guide
-4. Progress through the lifecycle phases as your project advances
-5. Consult the supporting practice documents as needed throughout your project
+4. Use the **[Project Kickoff Checklist](templates/project-kickoff-checklist.md)** to ensure comprehensive kickoff preparation
+5. Develop your **[Stakeholder Communication Plan](templates/stakeholder-communication-checklist.md)** early in the project
+6. Progress through the lifecycle phases as your project advances
+7. Consult the **[Release Readiness Checklist](templates/release-readiness-checklist.md)** before any deployment
+8. Use the **[Risk Review and Escalation Protocol](templates/risk-review-escalation-checklist.md)** throughout the project
+
+## Quick Reference: Template Application by Role
+
+Different roles will find different templates most relevant to their work:
+
+- **Project Managers**: All templates, especially Project Kickoff, Stakeholder Communication Planning, and Risk Review
+- **Product Managers**: Stakeholder Communication Planning, Project Kickoff (for alignment on vision and metrics)
+- **Release Managers**: Release Readiness Checklist (primary responsibility)
+- **QA Leads**: Release Readiness Checklist (testing sections), Project Kickoff (quality strategy)
+- **DevOps Engineers**: Release Readiness Checklist (environment and deployment sections)
+- **Developers**: Release Readiness Checklist (code and build sections), Project Kickoff (technical approach)
+- **Business Analysts**: Stakeholder Communication Planning, Project Kickoff (requirements clarification)
+- **UX Designers**: Project Kickoff (design approach), Stakeholder Communication (design feedback)
+- **Technical Writers**: Release Readiness Checklist (documentation sections), Project Kickoff (documentation planning)
 
 ## Questions or Feedback?
 
